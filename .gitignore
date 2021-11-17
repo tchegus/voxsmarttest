@@ -1,0 +1,89 @@
+*.class
+.settings/
+target/
+
+# Package Files #
+*.jar
+*.war
+
+# gwt caches and compiled units #
+war/gwt_bree/
+gwt-unitCache/
+
+# boilerplate generated classes #
+.apt_generated/
+
+# more caches and things from deploy #
+war/WEB-INF/deploy/
+war/WEB-INF/classes/
+
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.loadpath
+.gwt
+.pmd
+.checkstyle
+
+# External tool builders #
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations" #
+*.launch
+
+# CDT-specific #
+.cproject
+
+# PDT-specific #
+.buildpath
+
+# Logs #
+logs/
+logs/**
+.log
+
+# Scripts #
+*.sh
+
+# Build #
+deploy/
+deploy/**
+classes
+classes/**
+
+# GWT #
+*Application
+*Application/**
+*MdmDataViewer
+*MdmDataViewer/**
+*MdmDataViewerDev
+*MdmDataViewerDev/**
+lib/
+lib/**
+
+*ApplicationDev/
+*ApplicationDev/**
+
+xcas_output/
+xcas_output/**
+crawler_output/
+crawler_output/**
+string_output/
+string_output/**
+
+# Spring IDE #
+.springBeans
+
+# IntelliJ #
+.idea/
+*.iml
+/webintlab-tweet-simulator/start-id.txt
